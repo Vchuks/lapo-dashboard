@@ -6,7 +6,7 @@ import Header from "./Header";
 
 const Layout = () => {
   return (
-    <div className="flex h-screen">
+    <div className="flex flex-col lg:flex-row h-screen">
       <Sidebar />
 
       <div className="w-full bg-[#F1F7FF] overflow-y-scroll">
