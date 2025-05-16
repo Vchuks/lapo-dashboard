@@ -11,6 +11,10 @@
   src: url("./assets/font/Satoshi-Bold.otf");
 }
 
+*{
+  box-sizing: border-box;
+}
+
 body{
   font-family: satoshiRegular;
   color: #808080;
