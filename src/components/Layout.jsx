@@ -18,7 +18,7 @@ const Layout = () => {
     <div className="flex flex-col lg:flex-row h-screen">
       {side && <Sidebar />}
 
-      <div className="w-full bg-[#F1F7FF] overflow-y-scroll">
+      <div className="w-full bg-[#F1F7FF] overflow-x-hidden overflow-y-scroll">
         {side && <Header />}
         <Routes>
           <Route path="/" element={<Dashboard />} />
